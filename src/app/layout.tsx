@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PortfolioBuilder",
-  description: "Create stunning portfolios with ease",
+  title: "Backend Mailer 1",
+  description: "Backend Mailer 1",
 };
 
 export default function RootLayout({

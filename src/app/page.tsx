@@ -6,7 +6,7 @@ export default function LandingPage() {
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center py-16 px-8 space-y-6 md:space-y-8">
         <h1 className="text-5xl md:text-6xl font-extrabold leading-tight tracking-wide">
-          NEXT JS
+          Backend Mailer 1
         </h1>
       </section>
       </div>
