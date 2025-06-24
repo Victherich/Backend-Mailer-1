@@ -201,7 +201,8 @@ export async function POST(req: Request) {
           <li><strong>Amount:</strong> AED ${priceAED} (~USD ${priceUSD})</li>
           <li><strong>Date:</strong> ${new Date(date).toLocaleString()}</li>
         </ul>
-        <p>We'll be in touch with the next steps soon.</p>
+        <p>We'll be in touch with the next steps soon. </p>
+        <h3> Matthew car wash and cleaning </h3>
       `,
     };
 
