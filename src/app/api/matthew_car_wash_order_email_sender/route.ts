@@ -202,7 +202,7 @@ export async function POST(req: Request) {
           <li><strong>Date:</strong> ${new Date(date).toLocaleString()}</li>
         </ul>
         <p>We'll be in touch with the next steps soon. </p>
-        <h3> Matthew car wash and cleaning </h3>
+        <h3> MACO </h3>
       `,
     };
 
