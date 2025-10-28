@@ -161,7 +161,8 @@ export async function POST(req: Request) {
       selectedPackage,  // { name, price }
       priceAED,         // number or string
       priceUSD,         // number or string
-      date,             // string
+      date,
+      paymentStatus            // string
     } = await req.json();
 
     if (!user?.email || !sellerEmail || !serviceTitle) {
@@ -200,6 +201,7 @@ export async function POST(req: Request) {
           <li><strong>Package:</strong> ${selectedPackage.name}</li>
           <li><strong>Amount:</strong> AED ${priceAED} (~USD ${priceUSD})</li>
           <li><strong>Date:</strong> ${new Date(date).toLocaleString()}</li>
+          <li><strong>Payment Status:</strong> ${paymentStatus}</li>
         </ul>
         <p>We'll be in touch with the next steps soon. </p>
         <h3> MACO </h3>
@@ -219,6 +221,7 @@ export async function POST(req: Request) {
         <p><strong>Package:</strong> ${selectedPackage.name}</p>
         <p><strong>Amount:</strong> AED ${priceAED} (~USD ${priceUSD})</p>
         <p><strong>Date:</strong> ${new Date(date).toLocaleString()}</p>
+        <li><strong>Payment Status:</strong> ${paymentStatus}</li>
       `,
     };
 
