@@ -63,7 +63,7 @@
 // app/api/paypal/route.ts
 import { NextRequest, NextResponse } from 'next/server';
 import { getAccessToken } from '@/lib/paypal';
-import { workerData } from 'worker_threads'
+
 
 interface PayPalLink {
   href: string;
