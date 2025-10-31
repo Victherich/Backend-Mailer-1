@@ -75,7 +75,7 @@ export async function POST(req: Request) {
 
     // === Buyer Email ===
     const buyerMail = {
-      from: `"Matthew Car Wash" <${process.env.EMAIL_USER}>`,
+      from: `"MACO" <${process.env.EMAIL_USER}>`,
       to: user.email,
       subject: `Booking Update – ${serviceTitle}`,
       html: `
@@ -91,14 +91,17 @@ export async function POST(req: Request) {
             <li><strong>Status:</strong> ${status}</li>
             <li><strong>Payment Status:</strong> ${paymentStatus}</li>
           </ul>
-          <p>Thank you for choosing Matthew Car Wash and Cleaning Services.</p>
+          <br/>
+          <p>Thank you for choosing MACO.</p>
+          <p>Email: matthewcarwashandcleaning@gmail.com</p>
+            <p>Phone: +971 56 830 7510</p>
         </div>
       `,
     };
 
     // === Seller Email ===
     const sellerMail = {
-      from: `"Matthew Car Wash System" <${process.env.EMAIL_USER}>`,
+      from: `"MACO" <${process.env.EMAIL_USER}>`,
       to: sellerEmail,
       subject: `Booking Status Update – ${user.name}`,
       html: `
@@ -116,6 +119,10 @@ export async function POST(req: Request) {
             <li><strong>Status:</strong> ${status}</li>
             <li><strong>Payment Status:</strong> ${paymentStatus}</li>
           </ul>
+           <br/>
+          <p>Thank you for choosing MACO.</p>
+          <p>Email: matthewcarwashandcleaning@gmail.com</p>
+            <p>Phone: +971 56 830 7510</p>
         </div>
       `,
     };
