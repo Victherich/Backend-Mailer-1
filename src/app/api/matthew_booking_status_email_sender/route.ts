@@ -26,7 +26,7 @@ export async function POST(req: Request) {
   try {
     const {
       user, // { name, email, phone }
-      sellerEmail = "matthewcarwashandcleaning20@gmail.com",
+      sellerEmail,
       serviceTitle,
       selectedPackage,
       selectedDate,
