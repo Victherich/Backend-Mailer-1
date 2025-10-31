@@ -72,7 +72,11 @@ export async function POST(req: Request) {
           <li><strong>Payment Status: ${paymentStatus}</strong></li>
         </ul>
         <p>We'll be in touch with the next steps soon. </p>
-        <h3> MACO </h3>
+       
+         <br/>
+          <p>Thank you for choosing MACO.</p>
+          <p>Email: matthewcarwashandcleaning20@gmail.com</p>
+            <p>Phone: +971 56 830 7510</p>
       `,
     };
 
@@ -90,6 +94,10 @@ export async function POST(req: Request) {
         <p><strong>Amount:</strong> AED ${priceAED} (~USD ${priceUSD})</p>
         <p><strong>Date:</strong> ${new Date(date).toLocaleString()}</p>
         <p><strong>Payment Status: ${paymentStatus}</strong></p>
+         <br/>
+          <p>Thank you for choosing MACO.</p>
+          <p>Email: matthewcarwashandcleaning20@gmail.com</p>
+            <p>Phone: +971 56 830 7510</p>
       `,
     };
 
