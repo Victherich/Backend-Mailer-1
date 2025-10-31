@@ -93,7 +93,7 @@ export async function POST(req: Request) {
           </ul>
           <br/>
           <p>Thank you for choosing MACO.</p>
-          <p>Email: matthewcarwashandcleaning@gmail.com</p>
+          <p>Email: matthewcarwashandcleaning20@gmail.com</p>
             <p>Phone: +971 56 830 7510</p>
         </div>
       `,
@@ -121,7 +121,7 @@ export async function POST(req: Request) {
           </ul>
            <br/>
           <p>Thank you for choosing MACO.</p>
-          <p>Email: matthewcarwashandcleaning@gmail.com</p>
+          <p>Email: matthewcarwashandcleaning20@gmail.com</p>
             <p>Phone: +971 56 830 7510</p>
         </div>
       `,
